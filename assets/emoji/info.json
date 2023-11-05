@@ -1,0 +1,7 @@
+{
+    "name": "YUGIHO! Emoji",
+    "prefix": "judai_",
+    "type": "png",
+    "icon": "cute",
+    "items": ["laugh", "sob", "rage", "cute"]
+  }

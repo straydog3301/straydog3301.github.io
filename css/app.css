@@ -1149,8 +1149,8 @@ textarea {
 @font-face {
   font-family: 'ic';
   font-display: swap;
-  src: url("//at.alicdn.com/t/font_4315861_nq9vcw925r.eot");
-  src: url("//at.alicdn.com/t/font_4315861_nq9vcw925r.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_4315861_nq9vcw925r.woff2") format('woff2'), url("//at.alicdn.com/t/font_4315861_nq9vcw925r.woff") format('woff'), url("//at.alicdn.com/t/font_4315861_nq9vcw925r.ttf") format('truetype'), url("//at.alicdn.com/t/font_4315861_nq9vcw925r.svg#ic") format('svg');
+  src: url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.eot");
+  src: url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.woff2") format('woff2'), url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.woff") format('woff'), url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.ttf") format('truetype'), url("//at.alicdn.com/t/font_4316574_7z0jltc4wxh.svg#ic") format('svg');
 }
 @font-face {
   font-family: 'jetbrains-mono';
@@ -2245,6 +2245,12 @@ use.stop-animation {
 }
 .social .item.github i {
   color: #191717;
+}
+.social .item.email::before {
+  background-color: #55acd5;
+}
+.social .item.email i {
+  color: #55acd5;
 }
 .social .item.plurk::before {
   background-color: #FF5C52;
